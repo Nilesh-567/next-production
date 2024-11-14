@@ -1,0 +1,69 @@
+/* styles/Home.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #d1d5db;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #4f46e5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #4338ca;
+  }
+  
+  .status {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #e5e7eb;
+  }
+  
+  .result {
+    font-size: 1.5rem;
+    color: #d1fae5;
+    margin-top: 1rem;
+  }
+  
